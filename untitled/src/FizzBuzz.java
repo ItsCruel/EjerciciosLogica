@@ -8,6 +8,21 @@
 
 
 public class FizzBuzz {
-    for (int i )
+    public void ejecutarFizzBuzz() {
+    for (int i = 1; i <= 100; i++){
+        if (i % 3 == 0 && i % 5 == 0){
+            System.out.println(i+ "=" + "FizzBuzz");
+        }
+       if (i%3==0 ){
+           System.out.println(i+ "=" + "fIZZ");
+       }
+       else if (i%5==0 ){
+           System.out.println(i+ "=" + "BUZZ");
+       }
 
+       else {
+           System.out.println(i+ "=" + "ninguno");
+        }
+       }
+    }
 }
