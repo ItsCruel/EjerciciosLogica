@@ -8,6 +8,9 @@
 
 
 public class FizzBuzz {
+    public static void ejecutarMetodoFizzBuzz() {
+    }
+
     public void ejecutarFizzBuzz() {
     for (int i = 1; i <= 100; i++){
         if (i % 3 == 0 && i % 5 == 0){
